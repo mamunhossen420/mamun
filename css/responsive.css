@@ -1,0 +1,13 @@
+@media (max-width: 1200px){
+	.banner-img img{
+		display: none;
+	}
+	.container{
+		max-width: 90% !important;
+	}
+}
+@media (max-width: 768px){
+	.footer-text{
+		width: 100% !important;
+	}
+}

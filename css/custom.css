@@ -1,0 +1,225 @@
+body{
+	font-family: 'Big Shoulders Stencil Display', cursive;
+	font-family: 'Big Shoulders Stencil Text', cursive;
+	font-family: 'Sansita Swashed', cursive;
+}
+
+a{
+	display: inline-block;
+}
+a:hover {
+    color: #4cd179 !important;
+}
+img{
+	max-width: 100%;
+}
+.navbar-nav{
+	width: 100%
+}
+.logo{
+	width: 30%;
+}
+.logo img {
+    max-width: 100%;
+}
+/*****banner-section*****/
+section.banner-sectino {
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    color: #ffffffcf;
+    padding: 50px 0;
+}
+section.banner-sectino img {
+	box-shadow: 0px 5px 10px 0px #273ce3;
+	width: 100%;
+}
+.banner-content p {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 16px;
+    font-weight: 600;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+.banner-content h2 {
+	font-family: 'Big Shoulders Stencil Display', cursive;
+	font-weight: 700;
+	font-size: 40px;
+	margin-bottom: 0;
+}
+
+.banner-content h5 {
+    font-style: italic;
+    padding-left: 28px;
+    padding-bottom: 10px;
+    color: #40e0d0de;
+    font-weight: bold;
+}
+section.banner-sectino a.banner-btn{
+	background: linear-gradient(76deg, #4a58df, #f04772);
+	color: #f0cce3;
+	padding: 13px 70px !important;
+	transition-duration: .4s;
+	display: inline-block;
+}
+section.banner-sectino a.banner-btn:hover {
+    transform: translateY(-4px);
+}
+section.banner-sectino a.banner-btn:last-child {
+    background: linear-gradient(45deg, #ed4673, #1c23e5);
+}
+/**banner-section end*****/
+
+li.nav-item {
+    padding: 0 10px;
+    font-size: 20px;
+}
+li.nav-item .nav-link{
+	text-transform: capitalize;
+	display: inline-block;
+	color: #00000091 !important;
+	border: 1px solid #50cf55e6;
+	border-radius: 4px;
+	padding: 8px 25px 11px !important;
+}
+li.nav-item .nav-link:hover {
+	background: #50cf55e6;
+	color: #ffffffe0 !important;
+}
+/*for mobile device***/
+ .navbar-toggler ul li {
+    padding: 0px 0;
+    text-align: center;
+}
+
+  .navbar-toggler li.nav-item a.nav-link {
+    border: none !important;
+    padding: 0px !important;
+    text-transform: uppercase;
+}
+  .navbar-toggler li.nav-item a.nav-link:hover {
+	background: none;
+	color: #000000b0 !important;
+}
+/**my-service-section***/
+section.my-service-section {
+    background: linear-gradient(145deg, #262b77, #29e378);
+}
+.my-service-section span{
+	display: none;
+}
+.my-service-section img{
+	box-shadow: 0px 5px 10px 0px #4a46bee8;
+	transition: 0.6s;
+}
+.my-service-section img:hover{
+	box-shadow: 0px 5px 10px 0px #4a46bee8;
+	transform: scale(1.1);
+	transition: 0.6s;
+}
+.all-content {
+    padding-bottom: 50px;
+}
+.content {
+	position: relative;
+	overflow: hidden;
+	opacity: 1;
+	transition:.4s;
+	padding-bottom: 3px;
+	padding-right: 3px;
+}
+.heading h5 {
+    font-family: 'Sansita Swashed', cursive;
+    color: #c1c1c1;
+}
+
+.heading h2 {
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-size: 40px;
+    color: #f04772;
+}
+.content:hover{
+	opacity: .8;
+	transition:.4s;
+}
+.visit-btn{
+	position: absolute;
+	bottom: -100%;
+	/* left: 100%; */
+	background: linear-gradient(71deg, #2c3ee9, #ee2558);
+	color: white !important;
+	border: none !important;
+	outline: none !important;
+	opacity: 0;
+	transition:.4s;
+}
+.visit-btn:hover{
+	border: none !important;
+	outline: none !important;
+	transition:.4s;
+	
+}
+.content:hover .visit-btn{
+	bottom: 50%;
+	left: 50%;
+	transform: translate(-50%, 50%);
+	transition:.4s;
+	opacity: 1 !important;
+	
+}
+/*****footer******/
+footer {
+    padding: 40px 0;
+    padding-bottom: 20px !important;
+    text-align: center;
+    background: linear-gradient(145deg, #353c70, #3c3d45);
+}
+
+footer a {
+    font-size: 30px;
+    color: #ea4775;
+    transition: all .4s;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 2px 12px;
+    background: #244b7917;
+    border: 2px solid #d04558;
+}
+footer a i {
+    color: #ef4772;
+}
+
+footer a:hover,footer a:hover i {
+	background: #e74778;
+	color: #363d6c !important;
+}
+.footer-text {
+    text-transform: capitalize;
+    color: #4bce79;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 15px;
+}
+.footer-text h3{
+	font-family: 'Sansita Swashed', cursive;
+	word-spacing: 5px;
+	margin: 0;
+}
+.copyright span {
+    text-align: center;
+    text-transform: capitalize;
+    color: #a6aaac;
+    display: inline-block;
+    padding-top: 16px;
+}
+/*****bootstrap overwrite****/
+.navbar-toggler:focus {
+   box-shadow: none !important;
+}
+.navbar-light .navbar-toggler {
+    color: rgb(37 47 119) !important;
+    border-color: rgb(38 47 120) !important;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../images/chevron-circle-down-solid.svg) !important;
+}
