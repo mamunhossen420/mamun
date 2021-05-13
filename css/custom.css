@@ -52,7 +52,7 @@ section.banner-sectino img {
     font-style: italic;
     padding-left: 28px;
     padding-bottom: 10px;
-    color: #40e0d0de;
+    color: #0c0c0c;
     font-weight: bold;
 }
 section.banner-sectino a.banner-btn{
@@ -69,7 +69,29 @@ section.banner-sectino a.banner-btn:last-child {
     background: linear-gradient(45deg, #ed4673, #1c23e5);
 }
 /**banner-section end*****/
+/* Cursor */
+.typed-cursor {
+	color: #fff !important;
+}
 
+/**iso-btn start **/
+.iso-btn li {
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+.iso-btn li:hover{
+	color: #fff !important;
+	background-color: transparent;
+
+}
+.iso-btn li:focus{
+	outline: none !important;
+	box-shadow: none !important;
+	color: #fff !important;
+	background-color: transparent;
+
+}
 li.nav-item {
     padding: 0 10px;
     font-size: 20px;
