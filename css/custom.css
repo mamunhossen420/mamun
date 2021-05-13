@@ -52,7 +52,7 @@ section.banner-sectino img {
     font-style: italic;
     padding-left: 28px;
     padding-bottom: 10px;
-    color: #0c0c0c;
+    color: #18365a;
     font-weight: bold;
 }
 section.banner-sectino a.banner-btn{
@@ -75,6 +75,9 @@ section.banner-sectino a.banner-btn:last-child {
 }
 
 /**iso-btn start **/
+.heading ul li {
+    margin-right: 20px;
+}
 .iso-btn li {
 	margin-left: 10px;
 	margin-right: 10px;
